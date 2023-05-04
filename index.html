@@ -8,20 +8,24 @@
     /* 作業1: 設置頁面的背景顏色 */
     body {
       background-color: #000070;
-      position: absolute;
+      
     }
 
     /* 作業2: 設置標題的字體大小和顏色 */
     h1 {
       font-size: 24px;
       text-align: center;
-      color: white;
+      font-family: sans-serif;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #FFF;
     }
 
     /* 作業3: 設置圖片的寬度和邊框樣式 */
     img {
       display: block;
       width: 1192px ;
+      margin: auto; 
       border: ＿＿＿＿;
     }
 
@@ -41,7 +45,7 @@
       left: 50%;
       transform: translate(-50%,-50%);
       background: rgba(0,0,0,.1);
-      padding: 100px;
+      padding: 100px; 
     }
     label{
       font-family: sans-serif;
@@ -88,23 +92,24 @@
   </style>
 </head>
 <body>
-  <h1>歡迎來到我的圖片與文字頁面！</h1>
+  <h1>Cathaylife insurance | Data Team </h1>
   <!-- alt: 圖片跑不出來的輔助文字 -->
   <img src="3d_tuan_new.png" alt="3d電腦">
   <p class="paragraph">這是一段普通的文字。</p>
   <p class="paragraph" id="highlighted">這段文字將會被突顯！</p>
   <p class="paragraph">這又是一段普通的文字。</p>
+  <form>
+    <label> First Name: </label> <br>
+    <input type="text" placeholder="" /> <br>
+    <label> Last Name: </label> </br>
+    <input type="text" placeholder="" /><br>
+    <label> Your Email: </label> </br>
+    <input type="text" placeholder="" />
+  <br>
+  <button> Submit </button>
+  </form>
+
 </body>
-  
-<form>
-  <label> First Name: </label> <br>
-  <input type="text" placeholder="" /> <br>
-  <label> Last Name: </label> </br>
-  <input type="text" placeholder="" /><br>
-  <label> Your Email: </label> </br>
-  <input type="text" placeholder="" />
-<br>
-<button> Submit </button>
-</form>
+
 
 </html>
